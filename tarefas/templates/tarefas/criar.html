@@ -1,0 +1,23 @@
+{% extends 'tarefas/base.html' %}
+
+{% block content %}
+<h2 class="text-center" style="color: #B50000;">Criar Nova Tarefa</h2>
+<form method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="nome_tarefa">Nome da Tarefa</label>
+        <input type="text" id="nome_tarefa" name="nome_tarefa" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="custo">Custo</label>
+        <input type="text" id="custo" name="custo" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="data_limite">Data Limite</label>
+        <input type="date" id="data_limite" name="data_limite" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Criar Tarefa</button>
+    </div>
+</form>
+{% endblock %}
