@@ -8,17 +8,6 @@ ipykernel==6.29.4
 ipython==8.18.1
 matplotlib-inline==0.1.7
 mysqlclient==2.2.6
-nest-asyncio==1.6.0
-numpy==2.0.0
-packaging==24.1
-pandas==2.2.2
-parso==0.8.4
-pillow==10.3.0
-platformdirs==4.2.2
-prompt_toolkit==3.0.47
-psutil==6.0.0
-pure-eval==0.2.2
-Pygments==2.18.0
 PyMySQL==1.1.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
