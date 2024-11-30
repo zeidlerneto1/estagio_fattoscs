@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hc)_sb9h0(#u496wo+qdofs=^5a2_1f*mjbkle&j^#9)-kj#_w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [estagio-fattoscs.onrender.com]
 
 
 # Application definition
